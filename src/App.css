@@ -1,0 +1,79 @@
+/* Wrapper */
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  color: white;
+
+}
+
+/* Gradient background */
+.animated-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  background: linear-gradient(
+    120deg,
+    #ff6b6b,
+    #f7a34b,
+    #8f6cff,
+    #4fd1c5,
+    #ff6b6b
+  );
+  background-size: 300% 300%;
+  animation: gradientShift 12s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Centering content */
+.content {
+  position: relative;
+  height: 100vh; /* full viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  text-align: center;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+/* Offer card top accent (small rounded ribbon-like bar) */
+.offer-top-accent {
+  background: linear-gradient(90deg, rgba(59,130,246,0.95), rgba(99,102,241,0.9));
+  box-shadow: 0 6px 10px rgba(59,130,246,0.12);
+}
+
+/* Timeline line subtle glow */
+.timeline-line {
+  background: linear-gradient(180deg, rgba(147,197,253,0.55), rgba(99,102,241,0.18));
+  filter: blur(0.2px);
+}
+
+/* Small responsive tweak: ensure timeline cards stack on mobile */
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 1rem;
+    transform: none !important;
+  }
+}
