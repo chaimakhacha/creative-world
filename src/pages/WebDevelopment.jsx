@@ -125,14 +125,14 @@ export default function WebDevelopment() {
                     </div>
 
                     <div className="flex-1">
-                      <h3 className="text-blue-700 font-semibold">{o.title}</h3>
+                      <h3 className="text-blue-700 text-[25px] font-semibold">{o.title}</h3>
                       <p className="mt-2 text-sm text-gray-600">{o.desc}</p>
 
                       <div className="mt-3 flex gap-2 flex-wrap">
                         {o.tags?.map((t, idx) => (
                           <span
                             key={idx}
-                            className="text-xs px-2 py-1 bg-gray-100 rounded-full inline-block"
+                            className="text-sm px-2 py-1 bg-gray-100 rounded-full inline-block"
                           >
                             {t}
                           </span>
@@ -140,8 +140,7 @@ export default function WebDevelopment() {
                       </div>
                     </div>
 
-                    {/* faded circular element at right */}
-                    <div className="absolute right-4 bottom-4 w-10 h-10 rounded-full bg-white/70 border" />
+                  
                   </div>
                 </div>
               </article>

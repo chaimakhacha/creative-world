@@ -6,12 +6,15 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full flex items-center justify-between px-8 py-4 z-50 bg-white shadow-md">
+    <nav className="fixed top-0 left-0 w-full flex items-center mb-6 justify-between px-8 py-4 z-50 bg-white shadow-md">
       {/* Logo + Title */}
       <div className="flex items-center space-x-3">
-        <img src={logo} alt="CW Logo" className="h-13 w-auto rounded-full" />
-        <span className="text-xl font-bold">CW Creative World</span>
-      </div>
+  <a href="/" className="flex items-center space-x-3">
+    <img src={logo} alt="CW Logo" className="h-12 w-auto rounded-full" />
+    <span className="text-xl font-bold text-black">CW Creative World</span>
+  </a>
+</div>
+
 
       {/* Desktop Nav */}
       <div className="hidden md:flex space-x-8 ml-16">
