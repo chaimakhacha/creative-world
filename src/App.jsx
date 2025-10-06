@@ -20,7 +20,7 @@ import ContactSection from './sections/ContactSection.jsx'
 import FooterSection from './sections/FooterSection.jsx'
 import logo from './assets/logo.png'
 
-// ✅ Homepage (all sections)
+
 function Home() {
   return (
     <>
@@ -44,9 +44,10 @@ function Home() {
       <StatsSection />
       <ServicesSection />
       <PortfolioSection />
-      <TestimonialsSection />
+      
       <AboutSection />
       <ContactSection />
+      <TestimonialsSection />
       <FooterSection />
     </>
   )
@@ -55,13 +56,9 @@ function Home() {
 export default function App() {
   return (
     <div className="app-container">
-      {/* Gradient background */}
-      <div className="animated-gradient"></div>
-
-      {/* Navbar always visible */}
+  
       <Navbar />
 
-      {/* ✅ Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/WebDevelopment" element={<WebDevelopment />} />

@@ -79,7 +79,7 @@ export default function ServicesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 h-full">
           {services.map((service, index) => (
-            <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+            <div key={index} className="bg-cyan-100 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className={`${service.color} text-white w-16 h-16 rounded-xl flex items-center justify-center mb-6`}>
                 {service.icon}
               </div>

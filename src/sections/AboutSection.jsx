@@ -20,7 +20,7 @@ export default function AboutSection() {
           <div className="relative">
             <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop" alt="Team" className="rounded-2xl shadow-2xl" />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl">
-              <p className="text-4xl font-bold text-blue-600">10+</p>
+              <p className="text-4xl font-bold text-blue-600">10</p>
               <p className="text-gray-600 font-semibold">Years Experience</p>
             </div>
           </div>

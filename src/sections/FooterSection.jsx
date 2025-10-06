@@ -13,7 +13,7 @@ export default function FooterSection() {
           <div>
             <h4 className="font-bold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition">Web Development</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition">Web Development</a></li>
               <li><a href="#" className="hover:text-white transition">UI/UX Design</a></li>
               <li><a href="#" className="hover:text-white transition">Video Production</a></li>
               <li><a href="#" className="hover:text-white transition">Digital Marketing</a></li>

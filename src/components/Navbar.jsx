@@ -11,7 +11,7 @@ function Navbar() {
       <div className="flex items-center space-x-3">
   <a href="/" className="flex items-center space-x-3">
     <img src={logo} alt="CW Logo" className="h-12 w-auto rounded-full" />
-    <span className="text-xl font-bold text-black">CW Creative World</span>
+    <span className="text-xl font-bold text-black">Creative World</span>
   </a>
 </div>
 
@@ -22,8 +22,7 @@ function Navbar() {
         <a href="#portfolio" className="text-gray-500 hover:text-black transition">Portfolio</a>
         <a href="#projects" className="text-gray-500 hover:text-black transition">Projects</a>
         <a href="#team" className="text-gray-500 hover:text-black transition">Team</a>
-        <a href="#photo-booking" className="text-gray-500 hover:text-black transition">Photo Booking</a>
-        <a href="#pricing" className="text-gray-500 hover:text-black transition">Pricing</a>
+        <a href="https://cwalgerie.com/?fbclid=PAZXh0bgNhZW0CMTEAAacrw_UcbHmHpZOyoUUjQwRqWJIig77Afb029gIkUQc43-l_hsHl0nzmqxtN0g_aem_ArXM4UyEmM6x39PK3WjUzw" className="text-gray-500 hover:text-black transition">Photo Booking</a>
         <a href="#contact" className="text-gray-500 hover:text-black transition">Contact</a>
         <Sun className="w-5 h-5 cursor-pointer text-orange-300 hover:text-black" />
       </div>
