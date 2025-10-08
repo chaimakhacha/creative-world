@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import WebDevelopment from '../pages/WebDevelopment';
-import { Code, Palette, Camera, Video, Megaphone, Paintbrush, Mic, Globe, Lightbulb, ArrowRight, HeadphoneOff, Headphones } from 'lucide-react';
+import { Code, Palette, Camera, Video, Building2, Megaphone,MessageSquare, Paintbrush, Mic, Globe, Lightbulb, ArrowRight, HeadphoneOff, Headphones } from 'lucide-react';
 
 export default function ServicesSection() {
   const services = [
@@ -25,27 +25,27 @@ export default function ServicesSection() {
       icon: <Camera className="w-8 h-8" />,
       title: "photography",
       description: "Professional photography capturing moments and products with artistic vision and technical excellence using industry-standard equipment.",
-      color: "bg-purple-400",
+      color: "bg-rose-400",
       path: "/Photography"
     },
     {
       
-      icon: <Megaphone className="w-8 h-8" />,
+      icon: <MessageSquare className="w-8 h-8" />,
       title: "Communication",
       description: "Strategic communication campaigns that connect brands with their audiences effectively through multi-channel approaches.",
-      color: "bg-purple-400",
-      path: "/AdvertisingDesign"
+      color: "bg-teal-400",
+      path: "/Communication"
     },
     {
-      icon: <Paintbrush className="w-8 h-8" />,
-      title: "Interior & Architecture",
+      icon: <Building2 className="w-8 h-8" />,
+      title: "Interior design & Architecture",
       description: "Complete design solutions combining interior design expertise with innovative architectural excellence and 3D visualization.",
 
-      color: "bg-cyan-400",
+      color: "bg-amber-400",
       path: "/InteriorArchi"
     },
     {
-      icon: <Globe className="w-8 h-8" />,
+      icon: <Megaphone className="w-8 h-8" />,
       title: "Advertising Design",
       description: "Compelling advertising materials that drive engagement and deliver measurable results across digital and traditional media.",
       color: "bg-red-400",
@@ -55,7 +55,7 @@ export default function ServicesSection() {
       icon: <Mic className="w-8 h-8" />,
       title: "Recording Services",
       description: "Professional audio recording services for music, podcasts, voiceovers, and multimedia projects using state-of-the-art equipment.",
-      color: "bg-red-400",
+      color: "bg-violet-400",
       path: "/RecordingServices"
     },
     {
